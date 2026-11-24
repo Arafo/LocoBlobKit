@@ -1,0 +1,215 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		110000010000000000000001 /* LocoBlobKitDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220000010000000000000001 /* LocoBlobKitDemoApp.swift */; };
+		110000020000000000000001 /* LocoBlobKit in Frameworks */ = {isa = PBXBuildFile; productRef = 770000020000000000000001 /* LocoBlobKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		220000010000000000000001 /* LocoBlobKitDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocoBlobKitDemoApp.swift; sourceTree = "<group>"; };
+		220000020000000000000001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		220000990000000000000001 /* LocoBlobKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocoBlobKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		330000010000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				110000020000000000000001 /* LocoBlobKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		440000010000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				440000020000000000000001 /* LocoBlobKitDemo */,
+				440000990000000000000001 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		440000020000000000000001 /* LocoBlobKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				220000010000000000000001 /* LocoBlobKitDemoApp.swift */,
+				220000020000000000000001 /* Info.plist */,
+			);
+			path = LocoBlobKitDemo;
+			sourceTree = "<group>";
+		};
+		440000990000000000000001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				220000990000000000000001 /* LocoBlobKitDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		550000010000000000000001 /* LocoBlobKitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 660000020000000000000001 /* Build configuration list for PBXNativeTarget "LocoBlobKitDemo" */;
+			buildPhases = (
+				550000020000000000000001 /* Sources */,
+				330000010000000000000001 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LocoBlobKitDemo;
+			packageProductDependencies = (
+				770000020000000000000001 /* LocoBlobKit */,
+			);
+			productName = LocoBlobKitDemo;
+			productReference = 220000990000000000000001 /* LocoBlobKitDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		550000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 660000010000000000000001 /* Build configuration list for PBXProject "LocoBlobKitDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 440000010000000000000001;
+			packageReferences = (
+				770000010000000000000001 /* XCLocalSwiftPackageReference "../.." */,
+			);
+			productRefGroup = 440000990000000000000001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				550000010000000000000001 /* LocoBlobKitDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		550000020000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				110000010000000000000001 /* LocoBlobKitDemoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		660000100000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		660000110000000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		660000200000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = LocoBlobKitDemo/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arBySwift.locoblobkitdemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		660000210000000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = LocoBlobKitDemo/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arBySwift.locoblobkitdemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		660000010000000000000001 /* Build configuration list for PBXProject "LocoBlobKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				660000100000000000000001 /* Debug */,
+				660000110000000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		660000020000000000000001 /* Build configuration list for PBXNativeTarget "LocoBlobKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				660000200000000000000001 /* Debug */,
+				660000210000000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		770000010000000000000001 /* XCLocalSwiftPackageReference "../.." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../..;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		770000020000000000000001 /* LocoBlobKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 770000010000000000000001 /* XCLocalSwiftPackageReference "../.." */;
+			productName = LocoBlobKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 550000000000000000000001 /* Project object */;
+}
